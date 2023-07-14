@@ -1,4 +1,4 @@
-import user from '../assets/user.json';
+import user from '../asset/user.json';
 import { Profile } from './Profile/Profile.jsx';
 import { Container } from './App.module';
 export const App = () => {
