@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+
 export const FriendItem = styled.li`
   position: relative;
   padding-bottom: 10px;
@@ -14,11 +15,10 @@ export const FriendStatus = styled.span`
   left: 15px;
   bottom: 20px;
   display: block;
-
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background-color: green;
+  background-color: ${({ isOnline }) => (isOnline ? 'green' : 'red')};
 `;
 export const FriendAvatar = styled.img`
   display: block;

@@ -17,7 +17,7 @@ export const Statistics = ({ title, stats }) => {
           return (
             <Itemstatistics key={id}>
               <Itemlabel>{label}</Itemlabel>
-              <Itempersantege>{persantage}</Itempersantege>
+              <Itempersantege>{persantage}%</Itempersantege>
             </Itemstatistics>
           );
         })}

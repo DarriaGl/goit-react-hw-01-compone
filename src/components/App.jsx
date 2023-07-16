@@ -1,10 +1,12 @@
 import user from '../asset/user.json';
 import data from '../asset/data.json';
 import friends from '../asset/friends.json';
+import transactions from '../asset/transactions.json';
 
 import { Profile } from './Profile/Profile.jsx';
 import { Statistics } from './Statistics/Statistics.jsx';
-import { FriendList} from "./FriendList/FriendList.jsx"
+import { FriendList } from './FriendList/FriendList.jsx';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory.jsx';
 import { Container } from './App.module';
 export const App = () => {
   return (
@@ -18,6 +20,7 @@ export const App = () => {
       />
       <Statistics title="UPLOAD STATS" stats={data} />
       <FriendList friends={friends}></FriendList>
+      <TransactionHistory transactions={transactions}></TransactionHistory>
     </Container>
   );
 };

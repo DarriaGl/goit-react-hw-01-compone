@@ -5,10 +5,10 @@ import {
   FriendAvatar,
   FriendName,
 } from './FriendListItem.module.jsx';
-export const FriendListItem = ({ status, avatar, name }) => {
+export const FriendListItem = ({ isOnline, avatar, name }) => {
   return (
     <FriendItem>
-      <FriendStatus>{status}</FriendStatus>
+      <FriendStatus>{isOnline}</FriendStatus>
       <FriendAvatar src={avatar} alt="User avatar" width="30" />
       <FriendName>{name}</FriendName>
     </FriendItem>

@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 export const Statisticscontainer = styled.div`
   margin: auto;
   margin-top: 50px;
-  background: gray;
+  background: #f5ccff;
   border-radius: 3px;
   padding-top: 20px;
   padding-left: 0;
@@ -24,7 +24,6 @@ export const Liststatistics = styled.ul`
 `;
 export const Itemstatistics = styled.li`
   background-color: pink;
-  text-align: center;
   padding: 10px;
   border: 1px solid #fff;
 `;
