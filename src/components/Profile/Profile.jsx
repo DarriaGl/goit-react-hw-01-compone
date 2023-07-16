@@ -22,7 +22,7 @@ export const Profile = ({
       <Profdescription>
         <Profimage src={avatar} alt="User avatar"></Profimage>
         <Profname>{username}</Profname>
-        <Proftag>{tag}</Proftag>
+        <Proftag>@{tag}</Proftag>
         <Proflocation>{location}</Proflocation>
       </Profdescription>
       <Profstats>

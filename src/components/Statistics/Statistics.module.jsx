@@ -3,7 +3,7 @@ export const Statisticscontainer = styled.div`
   margin: auto;
   margin-top: 50px;
   background: #f5ccff;
-  border-radius: 3px;
+  border-radius: 18px;
   padding-top: 20px;
   padding-left: 0;
   padding-right: 0;
@@ -21,15 +21,20 @@ export const Liststatistics = styled.ul`
   padding-left: 0;
   padding-right: 0;
   width: 100%;
+  gap: 10px;
 `;
 export const Itemstatistics = styled.li`
-  background-color: pink;
+  background-color: #9747ff;
   padding: 10px;
   border: 1px solid #fff;
+  border-radius: 18px;
+  width: 60px;
 `;
 export const Itemlabel = styled.span`
   color: #fff;
+  display: block;
 `;
 export const Itempersantege = styled.span`
   color: #fff;
+  display: block;
 `;

@@ -5,17 +5,16 @@ export const Tablet = styled.table`
   width: 100%;
   margin-bottom: 20px;
   background: #f5ccff;
-  border-radius: 3px 3px 18px 18px;
+  border-radius: 18px;
 `;
 export const TabletHead = styled.thead`
   background-color: #9747ff;
 `;
 export const TabletTh = styled.th`
   color: black;
-  border-style: solid 3px;
   border-width: 0 5px 5px 0;
   border-color: white;
-  border-radius: 5px;
+  border-radius: 18px;
   padding-top: 10px;
   padding-bottom: 10px;
 `;

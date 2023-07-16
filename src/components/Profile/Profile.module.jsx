@@ -7,7 +7,7 @@ export const Profilecontainer = styled.div`
   margin-top: 50px;
   width: 100%;
   background: #f5ccff;
-  border-radius: 3px;
+  border-radius: 18px;
   padding-top: 20px;
 `;
 export const Profdescription = styled.div`
@@ -51,7 +51,7 @@ export const Profstats = styled.ul`
     width: 80px;
     justify-items: center;
     :not(:last-child) {
-      border-right: 1px solid #999999;
+      border-right: 1px solid #fff;
     }
     @media screen and (min-width: 768px) {
       width: 128px;

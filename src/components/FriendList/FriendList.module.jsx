@@ -4,7 +4,7 @@ export const FriendListContainer = styled.ul`
   margin: auto;
   margin-top: 50px;
   background: #f5ccff;
-  border-radius: 3px;
+  border-radius: 18px;
   padding: 0;
   display: flex;
   flex-direction: column;

@@ -7,7 +7,7 @@ export const FriendItem = styled.li`
   align-items: center;
   padding-top: 15px;
   :not(:last-child) {
-    border-bottom: 1px solid #999999;
+    border-bottom: 1px solid #fff;
   }
 `;
 export const FriendStatus = styled.span`

@@ -13,11 +13,11 @@ export const Statistics = ({ title, stats }) => {
     <Statisticscontainer>
       <Headstatistics>{title}</Headstatistics>
       <Liststatistics>
-        {stats.map(({ id, label, persantage }) => {
+        {stats.map(({ id, label, percentage }) => {
           return (
             <Itemstatistics key={id}>
               <Itemlabel>{label}</Itemlabel>
-              <Itempersantege>{persantage}%</Itempersantege>
+              <Itempersantege>{percentage}%</Itempersantege>
             </Itemstatistics>
           );
         })}
